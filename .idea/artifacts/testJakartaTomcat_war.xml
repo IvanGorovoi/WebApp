@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="testJakartaTomcat:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>testJakartaTomcat</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="testJakartaTomcat-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="testJakartaTomcat:war exploded" />
+    </root>
+  </artifact>
+</component>
